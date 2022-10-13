@@ -61,54 +61,18 @@
         },
         "currencySymbol": {
             "type": "string",
-            "default": "£"
+            "default": "R$"
         },
         "currencyISO": {
             "type": "string",
-            "enum": ["USD", "EUR", "GBP", "RON"],
-            "default": "USD"
+            "enum": ["BRL", "USD", "GBP", "RON"],
+            "default": "BRL"
         },
         "paymentGateway": {
             "type": "array",
             "items": {
-                "oneOf": [
-                    {
                         "type": "string",
                         "enum": [ "paypal"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "blockonomics"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "stripe"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "authorizenet"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "adyen"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "payway"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "instore"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "zip"]
-                    },
-                    {
-                        "type": "string",
-                        "enum": [ "verifone"]
-                    }
-                ]
             }
         },
         "databaseConnectionString": {

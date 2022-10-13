@@ -15,10 +15,10 @@
     "googleAnalytics": "",
     "injectJs": "",
     "customCss": "",
-    "currencySymbol": "£",
-    "currencyISO": "USD",
+    "currencySymbol": "R$",
+    "currencyISO": "BRL",
     "paymentGateway": [
-        "stripe"
+        "paypal"
     ],
     "databaseConnectionString": "mongodb://127.0.0.1:27017/expresscart",
     "theme": "Cloth",
@@ -26,9 +26,9 @@
     "orderHook": "",
     "availableLanguages": [
         "en",
-        "it"
+        "pt-br"
     ],
-    "defaultLocale": "en",
+    "defaultLocale": "br",
     "maxQuantity": 25,
     "twitterHandle": "",
     "facebookAppId": "",
